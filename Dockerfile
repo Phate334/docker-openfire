@@ -1,4 +1,4 @@
-FROM adoptopenjdk/openjdk11
+FROM adoptopenjdk/openjdk8
 
 ENV OPENFIRE_VERSION=4.3.0 \
     OPENFIRE_VERSION_=4_3_0
