@@ -1,0 +1,14 @@
+version: '3'
+services:
+  db:
+    image: mariadb
+    ports:
+      - "3306:3306"
+    env_file: db.env
+  of:
+    # image: gizmotronic/openfire:4.2.3
+    build: .
+    ports:
+      - "9090:9090"
+      - "9091:9091"
+      - "5222:5222"

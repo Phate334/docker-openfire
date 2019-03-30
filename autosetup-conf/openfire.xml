@@ -1,0 +1,20 @@
+<autosetup>
+    <run>true</run>
+
+    <locale>en</locale>
+    <xmpp>
+        <domain>localhost</domain>
+        <fqdn>localhost</fqdn>
+    </xmpp>
+    <encryption>
+        <algorithm>AES</algorithm>
+        <key>some-key</key>
+    </encryption>
+    <database>
+        <mode>embedded</mode>
+    </database>
+    <admin>
+        <email>admin@example.com</email>
+        <password>admin</password>
+    </admin>
+</autosetup>
